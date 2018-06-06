@@ -20,6 +20,11 @@
 		E42827AA20BBFCD100AF8229 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42827A920BBFCD100AF8229 /* MainViewController.swift */; };
 		E4A3ED6B20BC318B00940990 /* KoreaFoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3ED6A20BC318B00940990 /* KoreaFoodTableViewController.swift */; };
 		E4A3ED6D20BC319900940990 /* KoreaFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3ED6C20BC319900940990 /* KoreaFoodTableViewCell.swift */; };
+		E4A3ED6F20BD1D8B00940990 /* BookMarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3ED6E20BD1D8B00940990 /* BookMarkTableViewController.swift */; };
+		E4A3ED7120BD1D9A00940990 /* BookMarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3ED7020BD1D9A00940990 /* BookMarkTableViewCell.swift */; };
+		E4B6CE0320C2701400E7F531 /* KoreaFoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6CE0220C2701400E7F531 /* KoreaFoodData.swift */; };
+		E4B6CE0520C2712800E7F531 /* KoreaFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6CE0420C2712800E7F531 /* KoreaFood.swift */; };
+		E4B6CE0720C271EA00E7F531 /* BrandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6CE0620C271EA00E7F531 /* BrandService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		E42827A920BBFCD100AF8229 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E4A3ED6A20BC318B00940990 /* KoreaFoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaFoodTableViewController.swift; sourceTree = "<group>"; };
 		E4A3ED6C20BC319900940990 /* KoreaFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaFoodTableViewCell.swift; sourceTree = "<group>"; };
+		E4A3ED6E20BD1D8B00940990 /* BookMarkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTableViewController.swift; sourceTree = "<group>"; };
+		E4A3ED7020BD1D9A00940990 /* BookMarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTableViewCell.swift; sourceTree = "<group>"; };
+		E4B6CE0220C2701400E7F531 /* KoreaFoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaFoodData.swift; sourceTree = "<group>"; };
+		E4B6CE0420C2712800E7F531 /* KoreaFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaFood.swift; sourceTree = "<group>"; };
+		E4B6CE0620C271EA00E7F531 /* BrandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				E42827A720BBF6B000AF8229 /* SignIn.swift */,
+				E4B6CE0220C2701400E7F531 /* KoreaFoodData.swift */,
+				E4B6CE0420C2712800E7F531 /* KoreaFood.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +140,7 @@
 			children = (
 				E42827A320BBF24B00AF8229 /* APIService.swift */,
 				E42827A520BBF2A400AF8229 /* MemberService.swift */,
+				E4B6CE0620C271EA00E7F531 /* BrandService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -137,6 +150,8 @@
 			children = (
 				E4A3ED6A20BC318B00940990 /* KoreaFoodTableViewController.swift */,
 				E4A3ED6C20BC319900940990 /* KoreaFoodTableViewCell.swift */,
+				E4A3ED6E20BD1D8B00940990 /* BookMarkTableViewController.swift */,
+				E4A3ED7020BD1D9A00940990 /* BookMarkTableViewCell.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -266,12 +281,17 @@
 				E428279E20B94E8200AF8229 /* SignUpViewController.swift in Sources */,
 				E42827AA20BBFCD100AF8229 /* MainViewController.swift in Sources */,
 				E4A3ED6D20BC319900940990 /* KoreaFoodTableViewCell.swift in Sources */,
+				E4A3ED7120BD1D9A00940990 /* BookMarkTableViewCell.swift in Sources */,
 				E42827A820BBF6B000AF8229 /* SignIn.swift in Sources */,
 				E42827A620BBF2A400AF8229 /* MemberService.swift in Sources */,
+				E4B6CE0320C2701400E7F531 /* KoreaFoodData.swift in Sources */,
+				E4A3ED6F20BD1D8B00940990 /* BookMarkTableViewController.swift in Sources */,
 				E42827A420BBF24B00AF8229 /* APIService.swift in Sources */,
 				E428278D20B9480700AF8229 /* ViewController.swift in Sources */,
+				E4B6CE0520C2712800E7F531 /* KoreaFood.swift in Sources */,
 				E4A3ED6B20BC318B00940990 /* KoreaFoodTableViewController.swift in Sources */,
 				E428278B20B9480700AF8229 /* AppDelegate.swift in Sources */,
+				E4B6CE0720C271EA00E7F531 /* BrandService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

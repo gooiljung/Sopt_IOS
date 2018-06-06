@@ -9,7 +9,14 @@
 import UIKit
 
 class KoreaFoodTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var foodImage: UIImageView!
+    
+    @IBOutlet weak var reviewLabel: UILabel!
+    @IBOutlet weak var brandLabel: UILabel!
+    
+    @IBOutlet weak var menuLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +27,9 @@ class KoreaFoodTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    @IBAction func selectedBrandContent(_ sender: Any) {
+        
+    }
+    
 }
